@@ -1,149 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width,initial-scale=1.0"
-     <title>Agrinho</title>
-</head>
-<body>
-      <main>
-        
-      </main>
-</body>
-</html>
-<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Agrinho - Campo e Cidade</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho - Campo e Cidade</title>
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-body{
-    font-family: Arial, sans-serif;
-    background:#f4f4f4;
-}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7f4;
+            color: #333;
+            line-height: 1.6;
+        }
 
-header{
-    background:linear-gradient(90deg,#2e7d32,#66bb6a);
-    color:white;
-    text-align:center;
-    padding:40px;
-}
+        header {
+            background: linear-gradient(135deg, #1b5e20, #4caf50);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
 
-nav{
-    background:#1b5e20;
-    padding:15px;
-    text-align:center;
-}
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
-}
+        nav {
+            background: #144417;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
 
-section{
-    padding:40px 20px;
-}
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
 
-.banner{
-    text-align:center;
-}
+        nav a:hover {
+            color: #81c784;
+        }
 
-.banner img{
-    width:100%;
-    max-height:400px;
-    object-fit:cover;
-}
+        .banner {
+            text-align: center;
+            overflow: hidden;
+        }
 
-.card{
-    background:white;
-    max-width:900px;
-    margin:20px auto;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
-}
+        .banner img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            display: block;
+        }
 
-h2{
-    color:#2e7d32;
-    margin-bottom:15px;
-}
+        section {
+            padding: 20px;
+        }
 
-footer{
-    background:#1b5e20;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-</style>
+        .card {
+            background: white;
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
 
+        h2 {
+            color: #2e7d32;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #81c784;
+            padding-bottom: 8px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #144417;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
 
-<header>
-    <h1>AGRINHO 2025</h1>
-    <p>Festejando a conexão entre Campo e Cidade</p>
-</header>
+    <header>
+        <h1>AGRINHO 2025</h1>
+        <p>Festejando a conexão entre Campo e Cidade</p>
+    </header>
 
-<nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#beneficios">Benefícios</a>
-    <a href="#contato">Contato</a>
-</nav>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#contato">Contato</a>
+    </nav>
 
-<section class="banner">
-    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200" alt="Campo">
-</section>
+    <section class="banner">
+        <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1200" alt="Imagem do Campo">
+    </section>
 
-<section id="sobre">
-    <div class="card">
-        <h2>Sobre o Projeto</h2>
-        <p>
-            O campo e a cidade estão conectados todos os dias.
-            O campo produz alimentos, matérias-primas e recursos
-            importantes para a vida urbana. Já a cidade oferece
-            tecnologia, serviços e oportunidades que ajudam o
-            desenvolvimento rural.
-        </p>
-    </div>
-</section>
+    <main>
+        <section id="sobre">
+            <div class="card">
+                <h2>Sobre o Projeto</h2>
+                <p>
+                    O campo e a cidade estão conectados todos os dias.
+                    O campo produz alimentos, matérias-primas e recursos
+                    importantes para a vida urbana. Já a cidade oferece
+                    tecnologia, serviços e oportunidades que ajudam o
+                    desenvolvimento rural.
+                </p>
+            </div>
+        </section>
 
-<section id="beneficios">
-    <div class="card">
-        <h2>Importância da Conexão</h2>
-        <ul>
-            <li>Produção de alimentos para a população.</li>
-            <li>Geração de empregos.</li>
-            <li>Desenvolvimento econômico.</li>
-            <li>Uso da tecnologia na agricultura.</li>
-            <li>Preservação ambiental.</li>
-        </ul>
-    </div>
-</section>
+        <section id="beneficios">
+            <div class="card">
+                <h2>Importância da Conexão</h2>
+                <ul>
+                    <li>Produção de alimentos para a população.</li>
+                    <li>Geração de empregos.</li>
+                    <li>Desenvolvimento econômico.</li>
+                    <li>Uso da tecnologia na agricultura.</li>
+                    <li>Preservação ambiental.</li>
+                </ul>
+            </div>
+        </section>
 
-<section id="contato">
-    <div class="card">
-        <h2>Mensagem Final</h2>
-        <p>
-            Valorizar o campo é reconhecer sua importância para
-            a vida de todos. Juntos, campo e cidade constroem
-            um futuro mais sustentável.
-        </p>
-    </div>
-</section>
+        <section id="contato">
+            <div class="card">
+                <h2>Mensagem Final</h2>
+                <p>
+                    Valorizar o campo é reconhecer sua importância para
+                    a vida de todos. Juntos, campo e cidade constroem
+                    um futuro mais sustentável.
+                </p>
+            </div>
+        </section>
+    </main>
 
-<footer>
-    <p>Projeto Agrinho 2025 - Desenvolvido por [Seu Nome]</p>
-</footer>
+    <footer>
+        <p>Projeto Agrinho 2025 - Desenvolvido por [Seu Nome]</p>
+    </footer>
 
 </body>
 </html>
